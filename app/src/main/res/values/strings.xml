@@ -9,4 +9,7 @@
     <string name="signin_twitter">Sign in with Twitter</string>
     <string name="signin_linkedin">Sign in with LinkedIn</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

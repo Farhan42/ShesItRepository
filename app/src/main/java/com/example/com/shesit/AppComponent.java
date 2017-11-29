@@ -7,7 +7,7 @@ import dagger.android.AndroidInjector;
 /**
  * Created by DELL on 11/28/2017.
  */
-@Component(modules = {AndroidInjectionModule.class})
+@Component(modules = {AndroidInjectionModule.class,AppModule.class})
 public interface AppComponent extends AndroidInjector<MyApplication> {
 
 }

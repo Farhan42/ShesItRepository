@@ -10,8 +10,10 @@ import dagger.android.ContributesAndroidInjector;
 @Module
 public abstract class AppModule {
     @ContributesAndroidInjector
-    abstract MainActivity contributeActivityInjector();
-    
+    abstract Spalsh_Screen contributeActivityInjector();
+  //  @ContributesAndroidInjector
+   // abstract MainActivity contributeActivityInjector();
+
    // @Provides
     //static NetworkApi provideNetworkApi(){
      //   return new NetworkApi();
