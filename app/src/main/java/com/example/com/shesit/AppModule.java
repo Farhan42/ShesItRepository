@@ -11,8 +11,7 @@ import dagger.android.ContributesAndroidInjector;
 public abstract class AppModule {
     @ContributesAndroidInjector
     abstract MainActivity contributeActivityInjector();
-
-
+    
    // @Provides
     //static NetworkApi provideNetworkApi(){
      //   return new NetworkApi();
