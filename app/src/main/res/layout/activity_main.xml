@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_background"
+    tools:context="com.example.com.shesit.MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_below="@+id/imglogo"
+        style="@style/txtEmailStyle"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_alignEnd="@+id/txtEmail"
+        android:layout_below="@+id/txtEmail"
+        style="@style/txtPasswordStyle"
+        />
+
+    <Button
+
+        style="@style/btnLoginStyle"
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/txtPassword"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_alignEnd="@+id/txtEmail"
+        />
+
+    <Button
+        style="@style/btnSign_Fb_Style"
+        android:id="@+id/btnSign_Fb"
+        android:layout_alignStart="@+id/btnLogin"
+        android:layout_below="@+id/btnLogin"
+        />
+
+    <Button
+        style="@style/btn_twitter_style"
+        android:id="@+id/btnTwitter"
+        android:layout_alignEnd="@+id/btnSign_Fb"
+        android:layout_below="@+id/btnSign_Fb"
+        android:layout_alignStart="@+id/txtEmail"
+        />
+    <Button
+        style="@style/btn_LinkedInStyle"
+        android:id="@+id/btn_LinkedIn"
+        android:layout_alignStart="@+id/btnTwitter"
+        android:layout_alignEnd="@+id/btnSign_Fb"
+        android:layout_below="@+id/btnTwitter"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        style="@style/txtSignupStyle"
+        android:id="@+id/txtSignup"
+        android:layout_below="@+id/btn_LinkedIn"
+        android:layout_toStartOf="@+id/btn_LinkedIn"
+        />
+    <TextView
+        style="@style/txt_forget_Style"
+        android:id="@+id/txt_forget_password"
+        android:layout_alignTop="@+id/txtSignup"
+        />
+    <ImageView
+        style="@style/imglogo_Style"
+        android:id="@+id/imglogo"
+        app:srcCompat="@mipmap/logo" />
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="txtEmailStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:hint">Email</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginRight">80dp</item>
+        <item name="android:background">@drawable/rounded_border_edittext</item>
+        <item name="android:drawableLeft">@mipmap/user</item>
+    </style>
+
+<style name="txtPasswordStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:padding">6dp</item>
+    <item name="android:layout_marginTop">10dp</item>
+    <item name=" android:hint">@string/enter_password</item>
+    <item name="android:background">@drawable/rounded_border_edittext</item>
+    <item name=" android:drawableLeft">@mipmap/pwd</item>
+</style>
+
+    <style name="btnLoginStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop"> 10dp</item>
+        <item name="android:text">@string/log_in</item>
+        <item name="android:background">@drawable/btn_login</item>
+    </style>
+    <style name="btnSign_Fb_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">61dp</item>
+        <item name="android:text">@string/sinin_fb</item>
+        <item name="android:background">@drawable/btn_social</item>
+        <item name="android:layout_alignEnd">@+id/txtEmail</item>
+        <item name="android:drawableLeft">@mipmap/fb</item>
+
+    </style>
+    <style name="btn_twitter_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:text">@string/signin_twitter</item>
+        <item name="android:drawableLeft">@mipmap/twitter</item>
+        <item name="android:background">@drawable/btn_social</item>
+    </style>
+
+    <style name="btn_LinkedInStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/signin_linkedin</item>
+        <item name="android:drawableLeft">@mipmap/in</item>
+        <item name="android:background">@drawable/btn_social</item>
+    </style>
+    <style name="txtSignupStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/Sign_up</item>
+        <item name="android:layout_marginTop">17dp</item>
+    </style>
+    <style name="txt_forget_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/forget_password</item>
+        <item name="android:layout_marginLeft">100dp</item>
+    </style>
+    <style name="imglogo_Style">
+    <item name="android:layout_width">100dp</item>
+    <item name="android:layout_height">100dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+</resources>
